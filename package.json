@@ -2,7 +2,7 @@
   "name": "project-name",
   "version": "0.1.0",
   "description": "project-description",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "npm run-script compile && NODE_ENV=test  ./node_modules/.bin/_mocha ./test",
     "compile": "./node_modules/.bin/babel lib/ -d dist/",
